@@ -1,0 +1,38 @@
+{
+  "slug": "example9",
+  "title": "AETHER™",
+  "subtitle": "Apparel for the new frontier.",
+  "companyAddress": "Jl. Gunawarman No. 27, Jakarta Selatan",
+  "companyEmail": "studio@aether.example",
+  "companyPhone": "+62 21 5550 0909",
+  "contactPersonName": "Aether Studio",
+  "contactPersonEmail": "contact@aether.example",
+  "contactPersonPhone": "+62 811 9000 0909",
+  "contactPersonWhatsapp": "6281190000909",
+  "headline": "The new frontier.",
+  "content": "Uniforms for movement between bold concepts and everyday reality.",
+  "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1800&q=85",
+  "instagram": "https://instagram.com/aether",
+  "facebook": "",
+  "twitterX": "",
+  "tokopedia": "",
+  "tiktok": "",
+  "shopee": "",
+  "lazada": "",
+  "others": [],
+  "owner": { "name": "Aether Vision Archive", "handle": "@aether" },
+  "showcase": { "title": "AETHER™", "category": "Contemporary apparel", "description": "Technical staples for a life in motion.", "badge": "EST. 2025" },
+  "hero": { "eyebrow": "Vision archive", "title": "The new frontier.", "description": "Technical essentials for new routines, new cities, and whatever comes next.", "primaryAction": "Shop collection", "secondaryAction": "Contact studio" },
+  "products": [
+    { "number": 1, "category": "Outerwear", "name": "Vector Shell", "variant": "Graphite / water-resistant", "description": "Lightweight shell with a structured, weather-ready finish.", "price": 2890000, "unit": "pcs", "photoUrls": ["https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false },
+    { "number": 2, "category": "Essentials", "name": "Signal Tee", "variant": "Optic white / heavyweight cotton", "description": "A dense cotton tee with a relaxed proportion and clean finish.", "price": 590000, "unit": "pcs", "photoUrls": ["https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false },
+    { "number": 3, "category": "Bottoms", "name": "Transit Trouser", "variant": "Black / tapered utility", "description": "Technical trouser with an easy taper and concealed utility pockets.", "price": 1490000, "unit": "pcs", "photoUrls": ["https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false },
+    { "number": 4, "category": "Outerwear", "name": "Orbit Blouson", "variant": "Stone / recycled nylon", "description": "Short blouson cut from crisp recycled nylon for changing weather.", "price": 2350000, "unit": "pcs", "photoUrls": ["https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false },
+    { "number": 5, "category": "Accessories", "name": "Field Cap", "variant": "Black / ripstop", "description": "Six-panel ripstop cap with a low profile and tonal mark.", "price": 450000, "unit": "pcs", "photoUrls": ["https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false },
+    { "number": 6, "category": "Essentials", "name": "Axis Knit", "variant": "Ash / merino blend", "description": "Fine merino layer with an open neckline and precise shoulder line.", "price": 1290000, "unit": "pcs", "photoUrls": ["https://images.unsplash.com/photo-1610652492500-ded49ceeb378?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false }
+  ],
+  "theme": {
+    "light": { "background": "#050505", "surface": "#F4F4F4", "text": "#FFFFFF", "muted": "#A1A1AA", "primary": "#FFFFFF" },
+    "dark": { "background": "#050505", "surface": "#181818", "text": "#FFFFFF", "muted": "#A1A1AA", "primary": "#FFFFFF" }
+  }
+}

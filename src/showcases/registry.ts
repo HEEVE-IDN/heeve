@@ -13,6 +13,10 @@ import Example6 from "./example6/Example6";
 import Example6ProductPage from "./example6/ProductPage";
 import Example7 from "./example7/Example7";
 import Example7ProductPage from "./example7/ProductPage";
+import Example8 from "./example8/Example8";
+import Example8ProductPage from "./example8/ProductPage";
+import Example9 from "./example9/Example9";
+import Example9ProductPage from "./example9/ProductPage";
 import example1 from "./example1/config.json";
 import example2 from "./example2/config.json";
 import example3 from "./example3/config.json";
@@ -20,6 +24,8 @@ import example4 from "./example4/config.json";
 import example5 from "./example5/config.json";
 import example6 from "./example6/config.json";
 import example7 from "./example7/config.json";
+import example8 from "./example8/config.json";
+import example9 from "./example9/config.json";
 import type { ShowcaseConfig } from "../types/showcase";
 
 export type ShowcaseProps = { navigate: (path: string) => void };
@@ -69,5 +75,15 @@ export const showcaseRegistry: Record<
     config: example7,
     component: Example7,
     productComponent: Example7ProductPage,
+  },
+  example8: {
+    config: example8,
+    component: Example8,
+    productComponent: Example8ProductPage,
+  },
+  example9: {
+    config: example9,
+    component: Example9,
+    productComponent: Example9ProductPage,
   },
 };
