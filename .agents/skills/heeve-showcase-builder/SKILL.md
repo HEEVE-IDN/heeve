@@ -32,6 +32,7 @@ Register new examples in `src/showcases/registry.ts`. Confirm route handling in 
 8. Make responsive behavior explicit. Test desktop, tablet, and mobile. Preserve two-column grids at tablet widths when the design calls for it; collapse only where content needs it. Keep CTA buttons usable side by side on mobile unless impossible.
 9. Avoid new dependencies. Prefer existing components, CSS, browser APIs, and installed React Bits dependencies.
 10. Do not copy large third-party components into a showcase when an existing local component covers the need.
+11. Use only `images.unsplash.com` image URLs. Never use images from other hosts, Google thumbnails, Imgur, brand sites, or unverified sources. Before validation, audit every showcase image URL; production releases still require a recorded Unsplash source/license review.
 
 ## Minimum workflow
 
