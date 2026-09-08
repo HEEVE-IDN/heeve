@@ -26,12 +26,10 @@ export default function Example7({
   const carouselTrackRef = useRef<HTMLDivElement>(null);
 
   // Group products by category
-  const categories = Array.from(
-    new Set(data.products.map((p) => p.category))
-  );
+  const categories = Array.from(new Set(data.products.map((p) => p.category)));
 
   const currentProducts = data.products.filter(
-    (p) => p.category === categories[activeTab]
+    (p) => p.category === categories[activeTab],
   );
 
   // Hero carousel slides (watch-31, watch-32, watch-33 khusus hero section)
@@ -123,7 +121,7 @@ export default function Example7({
               if (data.contactPersonWhatsapp) {
                 window.open(
                   `https://wa.me/${data.contactPersonWhatsapp}`,
-                  "_blank"
+                  "_blank",
                 );
               }
             }}
@@ -155,11 +153,7 @@ export default function Example7({
         >
           {heroSlides.map((slide, idx) => (
             <div key={idx} className="ex7-hero-slide">
-              <img
-                src={slide.img}
-                alt={slide.title}
-                className="ex7-hero-img"
-              />
+              <img src={slide.img} alt={slide.title} className="ex7-hero-img" />
               <div className="ex7-hero-overlay" />
               <div className="ex7-hero-content">
                 <span className="ex7-hero-eyebrow">{slide.subtitle}</span>
@@ -170,7 +164,7 @@ export default function Example7({
                     className="ex7-hero-cta"
                     onClick={() =>
                       navigate(
-                        `/showcase/${data.slug}/product/${slide.productNum}`
+                        `/showcase/${data.slug}/product/${slide.productNum}`,
                       )
                     }
                   >
@@ -233,7 +227,9 @@ export default function Example7({
           ))}
         </div>
 
-        <div style={{ position: "relative", maxWidth: "1400px", margin: "0 auto" }}>
+        <div
+          style={{ position: "relative", maxWidth: "1400px", margin: "0 auto" }}
+        >
           <div ref={carouselTrackRef} className="ex7-product-track">
             {currentProducts.map((p) => (
               <div
@@ -307,7 +303,10 @@ export default function Example7({
           <h2 className="ex7-heading" style={{ fontSize: "36px" }}>
             Heritage & Precision
           </h2>
-          <p className="ex7-paragraph" style={{ color: "#eee", maxWidth: "600px" }}>
+          <p
+            className="ex7-paragraph"
+            style={{ color: "#eee", maxWidth: "600px" }}
+          >
             Preserving timeless vintage watches with complete authentication and
             mechanical inspection.
           </p>
@@ -351,7 +350,13 @@ export default function Example7({
 
       {/* 10. Quote Section */}
       <section className="ex7-quote-section">
-        <div style={{ display: "flex", justifyContent: "center", marginBottom: "16px" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            marginBottom: "16px",
+          }}
+        >
           <img
             src="https://i.imgur.com/m3gJlI9.jpeg"
             alt="Arlojihobi"
@@ -420,8 +425,8 @@ export default function Example7({
           </div>
         </div>
         <div className="ex7-footer-bottom">
-          &copy; {new Date().getFullYear()} ARLOJIHOBI · All rights reserved · Part
-          of HEEVE Showcase
+          &copy; {new Date().getFullYear()} ARLOJIHOBI · All rights reserved ·
+          Part of HEEVE Showcase
         </div>
       </footer>
     </div>

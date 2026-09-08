@@ -131,3 +131,47 @@
 .ex7-buy-btn:hover {
   background: #333;
 }
+
+@media (max-width: 640px) {
+  .ex7-pdp-nav {
+    height: auto;
+    min-height: 52px;
+    gap: 12px;
+    padding: 10px 14px;
+  }
+
+  .ex7-back-btn {
+    min-width: 0;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .ex7-pdp-layout {
+    gap: 28px;
+    margin: 20px auto 40px;
+    padding: 0 14px;
+  }
+
+  .ex7-pdp-main-img {
+    aspect-ratio: 4 / 5;
+  }
+
+  .ex7-pdp-title {
+    font-size: clamp(28px, 9vw, 38px);
+  }
+
+  .ex7-pdp-price {
+    margin-bottom: 18px;
+  }
+
+  .ex7-pdp-desc {
+    margin-bottom: 24px;
+  }
+
+  .ex7-pdp-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

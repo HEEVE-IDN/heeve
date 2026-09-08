@@ -147,7 +147,7 @@
   color: var(--bg);
 }
 .stripe-toolkit .product-detail-link {
-  border-color: var(--primary);
+  border: 0;
   color: var(--primary);
 }
 .stripe-toolkit .product-detail-link:hover {

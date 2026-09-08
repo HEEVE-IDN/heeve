@@ -12,7 +12,7 @@ export default function ProductPage({
 }) {
   const contact = config.contactPersonWhatsapp
     ? `https://wa.me/${config.contactPersonWhatsapp}?text=${encodeURIComponent(
-        `Halo ${config.title}, saya tertarik dengan produk ${product.name} (${product.variant})`
+        `Halo ${config.title}, saya tertarik dengan produk ${product.name} (${product.variant})`,
       )}`
     : "";
 
@@ -33,11 +33,7 @@ export default function ProductPage({
       <div className="ex7-pdp-layout">
         <div className="ex7-pdp-gallery">
           <div className="ex7-pdp-main-img">
-            <img
-              src={product.photoUrls[0]}
-              alt={product.name}
-              loading="lazy"
-            />
+            <img src={product.photoUrls[0]} alt={product.name} loading="lazy" />
           </div>
         </div>
 

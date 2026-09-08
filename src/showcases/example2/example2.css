@@ -464,6 +464,11 @@
   border-color: var(--primary);
   color: var(--primary);
 }
+
+[data-theme="dark"] .netlify-library .product-detail-link,
+[data-theme="dark"] .netlify-library .netlify-link {
+  color: #fff;
+}
 .netlify-library .product-detail-link:hover {
   background: var(--primary);
   color: #fff;
@@ -491,7 +496,7 @@
     height: 68px;
   }
   .netlify-hero-inner {
-    padding: 76px 0 190px;
+    padding: 56px 0 64px;
   }
   .netlify-hero-inner h1 {
     font-size: clamp(44px, 13vw, 68px);
@@ -500,12 +505,11 @@
     font-size: 16px;
   }
   .netlify-status {
-    top: auto;
-    left: 0;
-    right: 0;
-    bottom: 24px;
+    position: relative;
+    inset: auto;
     width: 100%;
     min-height: 280px;
+    margin-top: 48px;
     padding: 22px 20px;
     transform: none;
     animation-name: service-preview-fade-in-mobile;

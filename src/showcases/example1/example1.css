@@ -217,6 +217,21 @@
   padding: 0;
   border-radius: 6px;
 }
+.spotify-release .showcase-product {
+  padding: 0;
+  overflow: hidden;
+}
+
+.spotify-release .showcase-product-art {
+  width: 100%;
+  padding: 0;
+  border-radius: 6px 6px 0 0;
+}
+
+.spotify-release .showcase-product-copy {
+  padding: 16px;
+}
+
 .spotify-release .showcase-product-art img {
   display: block;
   width: 100%;
@@ -236,6 +251,15 @@
   background: var(--primary);
   color: var(--bg);
 }
+@media (max-width: 1024px) {
+  .spotify-disc {
+    right: 6%;
+    width: 240px;
+    height: 240px;
+    padding: 28px;
+  }
+}
+
 @media (max-width: 800px) {
   .spotify-page {
     display: block;
@@ -256,11 +280,11 @@
     font-size: 16px;
   }
   .spotify-disc {
-    right: 24px;
-    bottom: 32px;
-    width: 180px;
-    height: 180px;
-    padding: 22px;
+    right: 16px;
+    bottom: 108px;
+    width: 168px;
+    height: 168px;
+    padding: 20px;
     transform: rotate(8deg);
   }
   .spotify-disc strong {
@@ -277,9 +301,26 @@
     margin-top: 16px;
   }
   .spotify-release .showcase-catalog-grid.editorial {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-items: stretch;
   }
+
+  .spotify-release .showcase-catalog-grid.editorial > .showcase-product {
+    width: 100%;
+  }
+
   .spotify-release .showcase-product-art {
     height: 210px;
+  }
+}
+
+@media (max-width: 520px) {
+  .spotify-release .showcase-catalog-grid.editorial {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .spotify-release .showcase-catalog-grid.editorial > .showcase-product {
+    width: min(100%, 360px);
   }
 }

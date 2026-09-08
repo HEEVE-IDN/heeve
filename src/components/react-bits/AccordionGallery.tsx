@@ -173,6 +173,8 @@ export default function AccordionGallery({
           }}
           className={`ag-panel${active === index ? " ag-panel--active" : ""}`}
           onMouseEnter={() => setActive(index)}
+          onPointerEnter={() => setActive(index)}
+          onPointerMove={() => setActive(index)}
           onFocus={() => setActive(index)}
           onClick={() => setActive(index)}
           onKeyDown={(event) => {

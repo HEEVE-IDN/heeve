@@ -95,7 +95,14 @@ export function ArrowBoldRightIcon(props: P) {
 
 export function PauseIcon(props: P) {
   return (
-    <svg {...base(props)} width={14} height={14} viewBox="0 0 14 14" fill="currentColor" stroke="none">
+    <svg
+      {...base(props)}
+      width={14}
+      height={14}
+      viewBox="0 0 14 14"
+      fill="currentColor"
+      stroke="none"
+    >
       <rect x="3" y="2" width="3" height="10" />
       <rect x="8" y="2" width="3" height="10" />
     </svg>
@@ -104,7 +111,14 @@ export function PauseIcon(props: P) {
 
 export function PlayIcon(props: P) {
   return (
-    <svg {...base(props)} width={14} height={14} viewBox="0 0 14 14" fill="currentColor" stroke="none">
+    <svg
+      {...base(props)}
+      width={14}
+      height={14}
+      viewBox="0 0 14 14"
+      fill="currentColor"
+      stroke="none"
+    >
       <path d="M3 1.5 12 7 3 12.5V1.5Z" />
     </svg>
   );

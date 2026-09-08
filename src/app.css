@@ -1855,6 +1855,185 @@ h3 {
     min-height: 0;
   }
 }
+/* Mobile baseline: shared by home, showcases, and product pages. */
+@media (max-width: 800px) {
+  :root {
+    --mobile-gutter: 16px;
+  }
+
+  .app-header {
+    min-height: 56px;
+    padding: 12px var(--mobile-gutter);
+  }
+
+  .app-header nav {
+    gap: 8px;
+  }
+
+  .app-header .brand {
+    font-size: 16px;
+  }
+
+  .hero-copy,
+  .store-hero > * {
+    min-width: 0;
+  }
+
+  .hero-copy > p:not(.eyebrow),
+  .store-hero > p:not(.eyebrow) {
+    font-size: 16px;
+  }
+
+  .section-heading,
+  .catalog-toolbar {
+    gap: 16px;
+  }
+
+  .section-heading h2,
+  .catalog-toolbar h2 {
+    overflow-wrap: anywhere;
+  }
+
+  .catalog-toolbar .category-filter {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+  }
+
+  .catalog-toolbar .category-filter::-webkit-scrollbar {
+    display: none;
+  }
+
+  .catalog-toolbar .category-filter button {
+    flex: 0 0 auto;
+    min-height: 40px;
+  }
+
+  .showcase-product-art {
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 1.35;
+  }
+
+  .showcase-product-art img {
+    margin: -12px;
+    width: calc(100% + 24px);
+    height: calc(100% + 24px);
+  }
+
+  .showcase-product-footer,
+  .showcase-product-actions {
+    width: 100%;
+  }
+
+  .showcase-product-actions > .whatsapp-cta,
+  .showcase-product-actions > .product-detail-link {
+    min-height: 44px;
+    flex: 1 1 0;
+    text-align: center;
+  }
+
+  .product-page .detail-copy,
+  .product-page .detail-copy p,
+  .product-page-e1 .product-info,
+  .product-page-e2 .product-info,
+  .product-page-e3 .product-info,
+  .product-page-e4 .product-info,
+  .product-page-e5 .product-info,
+  .product-page-e6 .product-info,
+  .store-example7-product .ex7-pdp-details {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .product-page .detail-purchase,
+  .product-page-e1 .product-info a,
+  .product-page-e2 .product-info a,
+  .product-page-e3 .product-info a,
+  .product-page-e4 .product-info a,
+  .product-page-e5 .product-info a,
+  .product-page-e6 .product-info a,
+  .store-example7-product .ex7-buy-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .product-gallery-dialog {
+    padding: 12px;
+  }
+
+  .product-gallery-dialog__content {
+    max-height: calc(100dvh - 24px);
+    overflow: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .product-page-e1,
+  .product-page-e2,
+  .product-page-e3,
+  .product-page-e4,
+  .product-page-e5,
+  .product-page-e6 {
+    padding-inline: 14px;
+  }
+
+  .showcase-product {
+    padding: 10px;
+  }
+
+  .showcase-product-copy {
+    padding-inline: 2px;
+  }
+
+  .showcase-product-actions {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .spotify-page .showcase-product-footer,
+  .netlify-page .showcase-product-footer,
+  .stripe-page .showcase-product-footer,
+  .uber-page .showcase-product-footer,
+  .canva-page .showcase-product-footer,
+  .hubspot-page .showcase-product-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .spotify-page .showcase-product-actions,
+  .netlify-page .showcase-product-actions,
+  .stripe-page .showcase-product-actions,
+  .uber-page .showcase-product-actions,
+  .canva-page .showcase-product-actions,
+  .hubspot-page .showcase-product-actions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .spotify-page .showcase-product-actions > .whatsapp-cta,
+  .spotify-page .showcase-product-actions > .product-detail-link,
+  .netlify-page .showcase-product-actions > .whatsapp-cta,
+  .netlify-page .showcase-product-actions > .product-detail-link,
+  .stripe-page .showcase-product-actions > .whatsapp-cta,
+  .stripe-page .showcase-product-actions > .product-detail-link,
+  .uber-page .showcase-product-actions > .whatsapp-cta,
+  .uber-page .showcase-product-actions > .product-detail-link,
+  .canva-page .showcase-product-actions > .whatsapp-cta,
+  .canva-page .showcase-product-actions > .product-detail-link,
+  .hubspot-page .showcase-product-actions > .whatsapp-cta,
+  .hubspot-page .showcase-product-actions > .product-detail-link {
+    min-width: 0;
+    flex: 1 1 0;
+    white-space: nowrap;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
