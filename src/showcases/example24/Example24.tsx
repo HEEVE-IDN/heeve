@@ -78,6 +78,8 @@ export default function Example24({
           description={data.hero.description}
           playingTitle={data.hero.primaryAction}
           playingDescription={data.hero.secondaryAction}
+          playLabel={data.hero.primaryAction}
+          pauseLabel={data.hero.secondaryAction}
         />
       </section>
 

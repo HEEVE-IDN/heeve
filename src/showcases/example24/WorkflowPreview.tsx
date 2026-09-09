@@ -6,6 +6,8 @@ type WorkflowPreviewProps = {
   description: string;
   playingTitle: string;
   playingDescription: string;
+  playLabel: string;
+  pauseLabel: string;
 };
 
 export function WorkflowPreview({
@@ -16,6 +18,8 @@ export function WorkflowPreview({
   description,
   playingTitle,
   playingDescription,
+  playLabel,
+  pauseLabel,
 }: WorkflowPreviewProps) {
   return (
     <div className={`e24-hero-art${isPlaying ? " is-playing" : ""}`}>
@@ -24,11 +28,11 @@ export function WorkflowPreview({
         className="e24-play"
         type="button"
         onClick={onToggle}
-        aria-label={isPlaying ? `Pause ${title} preview` : `Play ${title} preview`}
+        aria-label={isPlaying ? pauseLabel : playLabel}
         aria-pressed={isPlaying}
       >
         <span aria-hidden="true">{isPlaying ? "Ⅱ" : "▶"}</span>
-        <span>{isPlaying ? "Pause preview" : "Play preview"}</span>
+        <span>{isPlaying ? pauseLabel : playLabel}</span>
       </button>
       <div className="e24-caption" aria-live="polite">
         <span aria-hidden="true">01</span>
