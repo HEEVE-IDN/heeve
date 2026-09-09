@@ -1,0 +1,47 @@
+{
+  "slug": "example20",
+  "title": "Gatherly — Better Conversations",
+  "subtitle": "Make space for better conversations.",
+  "companyAddress": "88 Meeting Street, Singapore",
+  "companyEmail": "hello@gatherly.example",
+  "companyPhone": "+65 5550 2020",
+  "contactPersonName": "Gatherly Studio",
+  "contactPersonEmail": "studio@gatherly.example",
+  "contactPersonPhone": "+65 8123 2020",
+  "contactPersonWhatsapp": "6581232020",
+  "headline": "Bring people closer, wherever they are.",
+  "content": "A thoughtful collection of tools and spaces for meetings that feel human.",
+  "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1800&q=85",
+  "instagram": "https://instagram.com/gatherly",
+  "facebook": "",
+  "twitterX": "",
+  "tokopedia": "",
+  "tiktok": "",
+  "shopee": "",
+  "lazada": "",
+  "others": [],
+  "owner": { "name": "Gatherly", "handle": "@gatherly" },
+  "showcase": {
+    "title": "Gatherly",
+    "category": "Meeting essentials",
+    "description": "Objects and spaces that make every conversation count.",
+    "badge": "Better together"
+  },
+  "hero": {
+    "eyebrow": "Human-first collaboration",
+    "title": "Bring people closer, wherever they are.",
+    "description": "A thoughtful collection of tools and spaces for meetings that feel human.",
+    "primaryAction": "Explore essentials",
+    "secondaryAction": "Talk to our team"
+  },
+  "products": [
+    { "number": 1, "category": "Audio", "name": "The Clear Mic", "variant": "Desk / USB-C", "description": "Warm, focused sound for calls, recordings, and ideas in progress.", "price": 149, "unit": "set", "photoUrls": ["https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false },
+    { "number": 2, "category": "Light", "name": "The Soft Light", "variant": "Studio / dimmable", "description": "A gentle, flattering glow that keeps faces and focus in the room.", "price": 129, "unit": "light", "photoUrls": ["https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false },
+    { "number": 3, "category": "Space", "name": "The Quiet Room", "variant": "2 hours / up to 6 people", "description": "A calm, fully equipped room for workshops, reviews, and real decisions.", "price": 85, "unit": "hour", "photoUrls": ["https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false },
+    { "number": 4, "category": "Toolkit", "name": "The Good Meeting Kit", "variant": "Cards / 42 prompts", "description": "Simple prompts to move a group from updates to useful conversation.", "price": 39, "unit": "kit", "photoUrls": ["https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false }
+  ],
+  "theme": {
+    "light": { "background": "#F7FAFC", "surface": "#EAF2F8", "text": "#102A43", "muted": "#627D98", "primary": "#1769AA" },
+    "dark": { "background": "#0B1F33", "surface": "#123552", "text": "#E6F1FA", "muted": "#A7C4DA", "primary": "#63B3ED" }
+  }
+}

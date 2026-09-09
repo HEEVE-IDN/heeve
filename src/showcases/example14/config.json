@@ -1,0 +1,32 @@
+{
+  "slug": "example14",
+  "title": "Northstar — Spend Without Friction",
+  "subtitle": "The smarter way to spend together.",
+  "companyAddress": "100 Market Street, San Francisco",
+  "companyEmail": "hello@northstar.example",
+  "companyPhone": "+1 415 555 0140",
+  "contactPersonName": "Northstar team",
+  "contactPersonEmail": "team@northstar.example",
+  "contactPersonPhone": "+1 415 555 0140",
+  "contactPersonWhatsapp": "14155550140",
+  "headline": "Make every dollar work harder.",
+  "content": "A calm, clear financial workspace for teams that move fast and spend thoughtfully.",
+  "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1800&q=85",
+  "instagram": "",
+  "facebook": "",
+  "twitterX": "",
+  "tokopedia": "",
+  "tiktok": "",
+  "shopee": "",
+  "lazada": "",
+  "others": [],
+  "owner": { "name": "Northstar", "handle": "@northstar" },
+  "showcase": { "title": "Northstar", "category": "Business finance", "description": "A focused financial operating system for modern teams.", "badge": "Move with clarity" },
+  "hero": { "eyebrow": "Financial confidence, built in", "title": "Make every dollar work harder.", "description": "Cards, controls, and insights that keep your whole team aligned.", "primaryAction": "Explore solutions", "secondaryAction": "Talk to our team" },
+  "products": [
+    { "number": 1, "category": "Spend management", "name": "Team Cards", "variant": "Flexible controls", "description": "Issue virtual and physical cards with the rules your business needs.", "price": 0, "unit": "per team", "photoUrls": ["https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false },
+    { "number": 2, "category": "Insights", "name": "Smart Reports", "variant": "Always up to date", "description": "See where money goes, spot patterns, and close the books faster.", "price": 0, "unit": "per team", "photoUrls": ["https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false },
+    { "number": 3, "category": "Operations", "name": "Bill Pay", "variant": "Simple approvals", "description": "Route every bill to the right person and pay on time without the chase.", "price": 0, "unit": "per team", "photoUrls": ["https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false }
+  ],
+  "theme": { "light": { "background": "#F7F8F5", "surface": "#FFFFFF", "text": "#102A24", "muted": "#60716C", "primary": "#D8F36A" }, "dark": { "background": "#102A24", "surface": "#183A32", "text": "#F4F7E9", "muted": "#B7C8BF", "primary": "#D8F36A" } }
+}

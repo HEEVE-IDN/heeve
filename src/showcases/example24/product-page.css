@@ -1,0 +1,104 @@
+.e24-product {
+  min-height: 100vh;
+  background: var(--bg, #f7f8fc);
+  color: var(--text, #20233a);
+  padding: 28px max(20px, 7vw);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+.e24-product button,
+.e24-product a {
+  font: inherit;
+}
+.e24-product button:focus-visible,
+.e24-product a:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 4px;
+}
+.e24-product header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1160px;
+  margin: auto;
+}
+.e24-product header button {
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+.e24-product header b {
+  font-size: 19px;
+  letter-spacing: -0.04em;
+}
+.e24-product header b span {
+  color: var(--primary);
+  margin-right: 5px;
+}
+.e24-product-back {
+  padding: 8px 0;
+  color: var(--muted) !important;
+}
+.e24-product-back:hover {
+  color: var(--text) !important;
+}
+.e24-product-layout {
+  max-width: 1160px;
+  margin: clamp(48px, 9vw, 100px) auto;
+  display: grid;
+  grid-template-columns: 1.08fr 0.92fr;
+  gap: clamp(38px, 7vw, 76px);
+  align-items: center;
+}
+.e24-product .product-gallery-stage {
+  background: var(--surface, #fff);
+  border-radius: 16px;
+}
+.e24-product h1 {
+  font-size: clamp(44px, 6vw, 76px);
+  line-height: 0.95;
+  letter-spacing: -0.08em;
+  margin: 14px 0 22px;
+}
+.e24-product section > p:not(.e24-kicker) {
+  color: var(--muted, #666a82);
+  line-height: 1.7;
+  max-width: 430px;
+}
+.e24-product strong {
+  display: block;
+  margin: 28px 0;
+  color: var(--primary, #625df5);
+  font-size: 14px;
+}
+.e24-product section > a {
+  display: inline-block;
+  padding: 13px 18px;
+  border-radius: 8px;
+  background: var(--primary, #625df5);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+.e24-product section > a:hover {
+  filter: brightness(1.08);
+}
+@media (max-width: 700px) {
+  .e24-product {
+    padding-top: 20px;
+  }
+  .e24-product header b {
+    font-size: 17px;
+  }
+  .e24-product-back span {
+    display: none;
+  }
+  .e24-product-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-top: 48px;
+  }
+  .e24-product h1 {
+    margin-top: 12px;
+  }
+}

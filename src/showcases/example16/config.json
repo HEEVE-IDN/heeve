@@ -1,0 +1,47 @@
+{
+  "slug": "example16",
+  "title": "Ledgerly — Finance Without Friction",
+  "subtitle": "The corporate card built for modern finance teams.",
+  "companyAddress": "New York, NY",
+  "companyEmail": "hello@ledgerly.example",
+  "companyPhone": "+1 212 555 0160",
+  "contactPersonName": "Ledgerly team",
+  "contactPersonEmail": "hello@ledgerly.example",
+  "contactPersonPhone": "+1 212 555 0160",
+  "contactPersonWhatsapp": "12125550160",
+  "headline": "Spend smarter. Move faster.",
+  "content": "One intelligent platform for cards, expenses, travel, and bill pay.",
+  "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1800&q=85",
+  "instagram": "",
+  "facebook": "",
+  "twitterX": "",
+  "tokopedia": "",
+  "tiktok": "",
+  "shopee": "",
+  "lazada": "",
+  "others": [],
+  "owner": { "name": "Ledgerly", "handle": "@ledgerly" },
+  "showcase": {
+    "title": "Ledgerly",
+    "category": "Financial operations",
+    "description": "A sharper operating system for every dollar your business spends.",
+    "badge": "Built for scale"
+  },
+  "hero": {
+    "eyebrow": "THE MODERN FINANCE STACK",
+    "title": "Spend smarter. Move faster.",
+    "description": "One intelligent platform for cards, expenses, travel, and bill pay.",
+    "primaryAction": "Book a demo",
+    "secondaryAction": "Explore platform"
+  },
+  "products": [
+    { "number": 1, "category": "Cards", "name": "Corporate cards", "variant": "Physical + virtual cards", "description": "Give every team the purchasing power they need, with controls that keep spend on track.", "price": 0, "unit": "demo", "photoUrls": ["https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false },
+    { "number": 2, "category": "Expenses", "name": "Expense management", "variant": "Automated workflows", "description": "Collect receipts, enforce policy, and close the books without chasing anyone down.", "price": 0, "unit": "demo", "photoUrls": ["https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false },
+    { "number": 3, "category": "Travel", "name": "Business travel", "variant": "Policy-led booking", "description": "Keep travel flexible for people and predictable for finance.", "price": 0, "unit": "demo", "photoUrls": ["https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false },
+    { "number": 4, "category": "Payables", "name": "Bill pay", "variant": "AP, without the busywork", "description": "Approve and pay bills from one place, with a clear view of every commitment.", "price": 0, "unit": "demo", "photoUrls": ["https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=85"], "stockOut": false, "hide": false }
+  ],
+  "theme": {
+    "light": { "background": "#f7f8f5", "surface": "#ffffff", "text": "#173b32", "muted": "#60736c", "primary": "#173b32" },
+    "dark": { "background": "#10241f", "surface": "#19352e", "text": "#f5f6ee", "muted": "#b4c6bf", "primary": "#d8f36a" }
+  }
+}

@@ -1,0 +1,90 @@
+.e21-product {
+  min-height: 100vh;
+  padding: 30px max(20px, 7vw);
+  background: var(--bg);
+  color: var(--text);
+  font-family: Manrope, Arial, sans-serif;
+}
+.e21-product * {
+  box-sizing: border-box;
+}
+.e21-product header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font:
+    11px "DM Mono",
+    monospace;
+  letter-spacing: 0.08em;
+}
+.e21-product header button {
+  border: 0;
+  background: none;
+  color: var(--primary);
+  cursor: pointer;
+  font: inherit;
+}
+.e21-product-layout {
+  max-width: 1120px;
+  margin: clamp(48px, 8vw, 90px) auto;
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  gap: clamp(40px, 7vw, 80px);
+  align-items: center;
+}
+.e21-product-visual .product-gallery-stage {
+  background: var(--surface);
+  min-height: 520px;
+}
+.e21-product h1 {
+  font-size: clamp(42px, 6vw, 78px);
+  line-height: 0.95;
+  letter-spacing: -0.08em;
+  margin: 20px 0;
+}
+.e21-product-variant,
+.e21-product-description {
+  color: var(--muted);
+  line-height: 1.7;
+}
+.e21-product section > strong {
+  display: block;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.e21-product section > strong small {
+  font:
+    400 11px "DM Mono",
+    monospace;
+  color: var(--muted);
+}
+.e21-product section > a {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 14px 18px;
+  background: var(--primary);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+}
+.e21-product :is(button, a):focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 4px;
+}
+@media (max-width: 700px) {
+  .e21-product-layout {
+    grid-template-columns: 1fr;
+    gap: 34px;
+    margin-top: 42px;
+  }
+  .e21-product-visual .product-gallery-stage {
+    min-height: 360px;
+  }
+  .e21-product header span {
+    font-size: 9px;
+  }
+  .e21-product h1 {
+    font-size: 58px;
+  }
+}
