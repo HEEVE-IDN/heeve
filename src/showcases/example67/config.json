@@ -1,0 +1,107 @@
+{
+  "slug": "anonymous-67",
+  "title": "Daymark",
+  "subtitle": "Focused correspondence",
+  "companyAddress": "Distributed studio",
+  "companyEmail": "hello@anonymous-67.example",
+  "contactPersonName": "Collection team",
+  "contactPersonEmail": "hello@anonymous-67.example",
+  "contactPersonWhatsapp": "6281200000000",
+  "headline": "Daymark: Focused correspondence",
+  "content": "A quiet editorial desk for messages that deserve a considered reply.",
+  "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1800&q=85",
+  "owner": {
+    "name": "Daymark",
+    "handle": "@collection67"
+  },
+  "showcase": {
+    "title": "Daymark",
+    "category": "Focused correspondence",
+    "description": "A quiet editorial desk for messages that deserve a considered reply.",
+    "badge": "COLLECTION 67"
+  },
+  "hero": {
+    "eyebrow": "FOCUSED CORRESPONDENCE / 67",
+    "title": "Daymark, made clear.",
+    "description": "A quiet editorial desk for messages that deserve a considered reply.",
+    "primaryAction": "View the collection",
+    "secondaryAction": "Read the approach"
+  },
+  "ui": {
+    "brandMark": "67",
+    "homeLabel": "Return to showcase index",
+    "navLabel": "Primary navigation",
+    "catalogLabel": "Collection",
+    "contactLabel": "Contact",
+    "catalogAction": "View collection",
+    "secondaryAction": "Read the approach",
+    "footerLabel": "A focused collection for practical work.",
+    "backLabel": "Back to collection",
+    "backAria": "Return to collection",
+    "contactAction": "Open a conversation",
+    "unitPrefix": "Designed for",
+    "heroAlt": "Editorial workspace image for Daymark",
+    "copyright": "\u00a9 2026 Anonymous collection",
+    "productCount": "entries"
+  },
+  "products": [
+    {
+      "number": 1,
+      "category": "Field note",
+      "name": "Daymark Focus",
+      "variant": "A concise starting point",
+      "description": "A considered entry point for the {category.lower()} collection.",
+      "price": 0,
+      "unit": "individual",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 2,
+      "category": "Working set",
+      "name": "Daymark Practice",
+      "variant": "A repeatable working view",
+      "description": "A practical view for shaping the next useful step.",
+      "price": 0,
+      "unit": "small team",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 3,
+      "category": "Reference",
+      "name": "Daymark Archive",
+      "variant": "A durable reference",
+      "description": "A clear record for returning to the work with context.",
+      "price": 0,
+      "unit": "working library",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    }
+  ],
+  "theme": {
+    "light": {
+      "background": "#fafaf8",
+      "surface": "#ffffff",
+      "text": "#292827",
+      "muted": "#73706d",
+      "primary": "#155555"
+    },
+    "dark": {
+      "background": "#111111",
+      "surface": "#242424",
+      "text": "#f5f5f5",
+      "muted": "#b7b7b7",
+      "primary": "#155555"
+    }
+  }
+}

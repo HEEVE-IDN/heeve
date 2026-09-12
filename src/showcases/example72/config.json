@@ -1,0 +1,107 @@
+{
+  "slug": "anonymous-72",
+  "title": "Edgefield",
+  "subtitle": "Build platform",
+  "companyAddress": "Distributed studio",
+  "companyEmail": "hello@anonymous-72.example",
+  "contactPersonName": "Collection team",
+  "contactPersonEmail": "hello@anonymous-72.example",
+  "contactPersonWhatsapp": "6281200000000",
+  "headline": "Edgefield: Build platform",
+  "content": "A crisp control surface for shipping pages, services, and reliable releases.",
+  "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1800&q=85",
+  "owner": {
+    "name": "Edgefield",
+    "handle": "@collection72"
+  },
+  "showcase": {
+    "title": "Edgefield",
+    "category": "Build platform",
+    "description": "A crisp control surface for shipping pages, services, and reliable releases.",
+    "badge": "COLLECTION 72"
+  },
+  "hero": {
+    "eyebrow": "BUILD PLATFORM / 72",
+    "title": "Edgefield, made clear.",
+    "description": "A crisp control surface for shipping pages, services, and reliable releases.",
+    "primaryAction": "View the collection",
+    "secondaryAction": "Read the approach"
+  },
+  "ui": {
+    "brandMark": "72",
+    "homeLabel": "Return to showcase index",
+    "navLabel": "Primary navigation",
+    "catalogLabel": "Collection",
+    "contactLabel": "Contact",
+    "catalogAction": "View collection",
+    "secondaryAction": "Read the approach",
+    "footerLabel": "A focused collection for practical work.",
+    "backLabel": "Back to collection",
+    "backAria": "Return to collection",
+    "contactAction": "Open a conversation",
+    "unitPrefix": "Designed for",
+    "heroAlt": "Editorial workspace image for Edgefield",
+    "copyright": "\u00a9 2026 Anonymous collection",
+    "productCount": "entries"
+  },
+  "products": [
+    {
+      "number": 1,
+      "category": "Field note",
+      "name": "Edgefield Focus",
+      "variant": "A concise starting point",
+      "description": "A considered entry point for the {category.lower()} collection.",
+      "price": 0,
+      "unit": "individual",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 2,
+      "category": "Working set",
+      "name": "Edgefield Practice",
+      "variant": "A repeatable working view",
+      "description": "A practical view for shaping the next useful step.",
+      "price": 0,
+      "unit": "small team",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 3,
+      "category": "Reference",
+      "name": "Edgefield Archive",
+      "variant": "A durable reference",
+      "description": "A clear record for returning to the work with context.",
+      "price": 0,
+      "unit": "working library",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    }
+  ],
+  "theme": {
+    "light": {
+      "background": "#fafafa",
+      "surface": "#ffffff",
+      "text": "#171717",
+      "muted": "#5f5f5f",
+      "primary": "#171717"
+    },
+    "dark": {
+      "background": "#111111",
+      "surface": "#242424",
+      "text": "#f5f5f5",
+      "muted": "#b7b7b7",
+      "primary": "#171717"
+    }
+  }
+}

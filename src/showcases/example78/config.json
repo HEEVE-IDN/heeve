@@ -1,0 +1,107 @@
+{
+  "slug": "anonymous-78",
+  "title": "Clear Transfer",
+  "subtitle": "Money movement",
+  "companyAddress": "Distributed studio",
+  "companyEmail": "hello@anonymous-78.example",
+  "contactPersonName": "Collection team",
+  "contactPersonEmail": "hello@anonymous-78.example",
+  "contactPersonWhatsapp": "6281200000000",
+  "headline": "Clear Transfer: Money movement",
+  "content": "A straightforward desk for planning transfers and keeping value in motion.",
+  "image": "https://images.unsplash.com/photo-1554224154-26032fced8bd?auto=format&fit=crop&w=1800&q=85",
+  "owner": {
+    "name": "Clear Transfer",
+    "handle": "@collection78"
+  },
+  "showcase": {
+    "title": "Clear Transfer",
+    "category": "Money movement",
+    "description": "A straightforward desk for planning transfers and keeping value in motion.",
+    "badge": "COLLECTION 78"
+  },
+  "hero": {
+    "eyebrow": "MONEY MOVEMENT / 78",
+    "title": "Clear Transfer, made clear.",
+    "description": "A straightforward desk for planning transfers and keeping value in motion.",
+    "primaryAction": "View the collection",
+    "secondaryAction": "Read the approach"
+  },
+  "ui": {
+    "brandMark": "78",
+    "homeLabel": "Return to showcase index",
+    "navLabel": "Primary navigation",
+    "catalogLabel": "Collection",
+    "contactLabel": "Contact",
+    "catalogAction": "View collection",
+    "secondaryAction": "Read the approach",
+    "footerLabel": "A focused collection for practical work.",
+    "backLabel": "Back to collection",
+    "backAria": "Return to collection",
+    "contactAction": "Open a conversation",
+    "unitPrefix": "Designed for",
+    "heroAlt": "Editorial workspace image for Clear Transfer",
+    "copyright": "\u00a9 2026 Anonymous collection",
+    "productCount": "entries"
+  },
+  "products": [
+    {
+      "number": 1,
+      "category": "Field note",
+      "name": "Clear Transfer Focus",
+      "variant": "A concise starting point",
+      "description": "A considered entry point for the {category.lower()} collection.",
+      "price": 0,
+      "unit": "individual",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1554224154-26032fced8bd?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 2,
+      "category": "Working set",
+      "name": "Clear Transfer Practice",
+      "variant": "A repeatable working view",
+      "description": "A practical view for shaping the next useful step.",
+      "price": 0,
+      "unit": "small team",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 3,
+      "category": "Reference",
+      "name": "Clear Transfer Archive",
+      "variant": "A durable reference",
+      "description": "A clear record for returning to the work with context.",
+      "price": 0,
+      "unit": "working library",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    }
+  ],
+  "theme": {
+    "light": {
+      "background": "#f5f5f2",
+      "surface": "#ffffff",
+      "text": "#163300",
+      "muted": "#557044",
+      "primary": "#163300"
+    },
+    "dark": {
+      "background": "#111111",
+      "surface": "#242424",
+      "text": "#f5f5f5",
+      "muted": "#b7b7b7",
+      "primary": "#163300"
+    }
+  }
+}

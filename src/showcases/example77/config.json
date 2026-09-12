@@ -1,0 +1,107 @@
+{
+  "slug": "anonymous-77",
+  "title": "Future Index",
+  "subtitle": "Independent ideas",
+  "companyAddress": "Distributed studio",
+  "companyEmail": "hello@anonymous-77.example",
+  "contactPersonName": "Collection team",
+  "contactPersonEmail": "hello@anonymous-77.example",
+  "contactPersonWhatsapp": "6281200000000",
+  "headline": "Future Index: Independent ideas",
+  "content": "A sharp editorial shelf for the signals shaping what comes next.",
+  "image": "https://images.unsplash.com/photo-1495020689067-958852a7765c?auto=format&fit=crop&w=1800&q=85",
+  "owner": {
+    "name": "Future Index",
+    "handle": "@collection77"
+  },
+  "showcase": {
+    "title": "Future Index",
+    "category": "Independent ideas",
+    "description": "A sharp editorial shelf for the signals shaping what comes next.",
+    "badge": "COLLECTION 77"
+  },
+  "hero": {
+    "eyebrow": "INDEPENDENT IDEAS / 77",
+    "title": "Future Index, made clear.",
+    "description": "A sharp editorial shelf for the signals shaping what comes next.",
+    "primaryAction": "View the collection",
+    "secondaryAction": "Read the approach"
+  },
+  "ui": {
+    "brandMark": "77",
+    "homeLabel": "Return to showcase index",
+    "navLabel": "Primary navigation",
+    "catalogLabel": "Collection",
+    "contactLabel": "Contact",
+    "catalogAction": "View collection",
+    "secondaryAction": "Read the approach",
+    "footerLabel": "A focused collection for practical work.",
+    "backLabel": "Back to collection",
+    "backAria": "Return to collection",
+    "contactAction": "Open a conversation",
+    "unitPrefix": "Designed for",
+    "heroAlt": "Editorial workspace image for Future Index",
+    "copyright": "\u00a9 2026 Anonymous collection",
+    "productCount": "entries"
+  },
+  "products": [
+    {
+      "number": 1,
+      "category": "Field note",
+      "name": "Future Index Focus",
+      "variant": "A concise starting point",
+      "description": "A considered entry point for the {category.lower()} collection.",
+      "price": 0,
+      "unit": "individual",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1495020689067-958852a7765c?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 2,
+      "category": "Working set",
+      "name": "Future Index Practice",
+      "variant": "A repeatable working view",
+      "description": "A practical view for shaping the next useful step.",
+      "price": 0,
+      "unit": "small team",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1554224154-26032fced8bd?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 3,
+      "category": "Reference",
+      "name": "Future Index Archive",
+      "variant": "A durable reference",
+      "description": "A clear record for returning to the work with context.",
+      "price": 0,
+      "unit": "working library",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    }
+  ],
+  "theme": {
+    "light": {
+      "background": "#f4f1eb",
+      "surface": "#ffffff",
+      "text": "#171717",
+      "muted": "#6b665e",
+      "primary": "#d71920"
+    },
+    "dark": {
+      "background": "#111111",
+      "surface": "#242424",
+      "text": "#f5f5f5",
+      "muted": "#b7b7b7",
+      "primary": "#d71920"
+    }
+  }
+}

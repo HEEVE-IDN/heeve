@@ -1,0 +1,107 @@
+{
+  "slug": "anonymous-69",
+  "title": "Signal Press",
+  "subtitle": "Tech culture",
+  "companyAddress": "Distributed studio",
+  "companyEmail": "hello@anonymous-69.example",
+  "contactPersonName": "Collection team",
+  "contactPersonEmail": "hello@anonymous-69.example",
+  "contactPersonWhatsapp": "6281200000000",
+  "headline": "Signal Press: Tech culture",
+  "content": "A vivid stream of reporting, objects, and ideas worth following.",
+  "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1800&q=85",
+  "owner": {
+    "name": "Signal Press",
+    "handle": "@collection69"
+  },
+  "showcase": {
+    "title": "Signal Press",
+    "category": "Tech culture",
+    "description": "A vivid stream of reporting, objects, and ideas worth following.",
+    "badge": "COLLECTION 69"
+  },
+  "hero": {
+    "eyebrow": "TECH CULTURE / 69",
+    "title": "Signal Press, made clear.",
+    "description": "A vivid stream of reporting, objects, and ideas worth following.",
+    "primaryAction": "View the collection",
+    "secondaryAction": "Read the approach"
+  },
+  "ui": {
+    "brandMark": "69",
+    "homeLabel": "Return to showcase index",
+    "navLabel": "Primary navigation",
+    "catalogLabel": "Collection",
+    "contactLabel": "Contact",
+    "catalogAction": "View collection",
+    "secondaryAction": "Read the approach",
+    "footerLabel": "A focused collection for practical work.",
+    "backLabel": "Back to collection",
+    "backAria": "Return to collection",
+    "contactAction": "Open a conversation",
+    "unitPrefix": "Designed for",
+    "heroAlt": "Editorial workspace image for Signal Press",
+    "copyright": "\u00a9 2026 Anonymous collection",
+    "productCount": "entries"
+  },
+  "products": [
+    {
+      "number": 1,
+      "category": "Field note",
+      "name": "Signal Press Focus",
+      "variant": "A concise starting point",
+      "description": "A considered entry point for the {category.lower()} collection.",
+      "price": 0,
+      "unit": "individual",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 2,
+      "category": "Working set",
+      "name": "Signal Press Practice",
+      "variant": "A repeatable working view",
+      "description": "A practical view for shaping the next useful step.",
+      "price": 0,
+      "unit": "small team",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 3,
+      "category": "Reference",
+      "name": "Signal Press Archive",
+      "variant": "A durable reference",
+      "description": "A clear record for returning to the work with context.",
+      "price": 0,
+      "unit": "working library",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    }
+  ],
+  "theme": {
+    "light": {
+      "background": "#131313",
+      "surface": "#2d2d2d",
+      "text": "#ffffff",
+      "muted": "#b7b7b7",
+      "primary": "#3cffd0"
+    },
+    "dark": {
+      "background": "#131313",
+      "surface": "#2d2d2d",
+      "text": "#f5f5f5",
+      "muted": "#b7b7b7",
+      "primary": "#3cffd0"
+    }
+  }
+}

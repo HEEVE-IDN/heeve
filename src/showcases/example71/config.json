@@ -1,0 +1,107 @@
+{
+  "slug": "anonymous-71",
+  "title": "City Relay",
+  "subtitle": "Urban movement",
+  "companyAddress": "Distributed studio",
+  "companyEmail": "hello@anonymous-71.example",
+  "contactPersonName": "Collection team",
+  "contactPersonEmail": "hello@anonymous-71.example",
+  "contactPersonWhatsapp": "6281200000000",
+  "headline": "City Relay: Urban movement",
+  "content": "A direct route to rides, deliveries, and the next practical stop.",
+  "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1800&q=85",
+  "owner": {
+    "name": "City Relay",
+    "handle": "@collection71"
+  },
+  "showcase": {
+    "title": "City Relay",
+    "category": "Urban movement",
+    "description": "A direct route to rides, deliveries, and the next practical stop.",
+    "badge": "COLLECTION 71"
+  },
+  "hero": {
+    "eyebrow": "URBAN MOVEMENT / 71",
+    "title": "City Relay, made clear.",
+    "description": "A direct route to rides, deliveries, and the next practical stop.",
+    "primaryAction": "View the collection",
+    "secondaryAction": "Read the approach"
+  },
+  "ui": {
+    "brandMark": "71",
+    "homeLabel": "Return to showcase index",
+    "navLabel": "Primary navigation",
+    "catalogLabel": "Collection",
+    "contactLabel": "Contact",
+    "catalogAction": "View collection",
+    "secondaryAction": "Read the approach",
+    "footerLabel": "A focused collection for practical work.",
+    "backLabel": "Back to collection",
+    "backAria": "Return to collection",
+    "contactAction": "Open a conversation",
+    "unitPrefix": "Designed for",
+    "heroAlt": "Editorial workspace image for City Relay",
+    "copyright": "\u00a9 2026 Anonymous collection",
+    "productCount": "entries"
+  },
+  "products": [
+    {
+      "number": 1,
+      "category": "Field note",
+      "name": "City Relay Focus",
+      "variant": "A concise starting point",
+      "description": "A considered entry point for the {category.lower()} collection.",
+      "price": 0,
+      "unit": "individual",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 2,
+      "category": "Working set",
+      "name": "City Relay Practice",
+      "variant": "A repeatable working view",
+      "description": "A practical view for shaping the next useful step.",
+      "price": 0,
+      "unit": "small team",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 3,
+      "category": "Reference",
+      "name": "City Relay Archive",
+      "variant": "A durable reference",
+      "description": "A clear record for returning to the work with context.",
+      "price": 0,
+      "unit": "working library",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    }
+  ],
+  "theme": {
+    "light": {
+      "background": "#ffffff",
+      "surface": "#efefef",
+      "text": "#111111",
+      "muted": "#5e5e5e",
+      "primary": "#000000"
+    },
+    "dark": {
+      "background": "#111111",
+      "surface": "#242424",
+      "text": "#f5f5f5",
+      "muted": "#b7b7b7",
+      "primary": "#000000"
+    }
+  }
+}

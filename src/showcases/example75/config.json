@@ -1,0 +1,107 @@
+{
+  "slug": "anonymous-75",
+  "title": "Terminal Field",
+  "subtitle": "Fast workspace",
+  "companyAddress": "Distributed studio",
+  "companyEmail": "hello@anonymous-75.example",
+  "contactPersonName": "Collection team",
+  "contactPersonEmail": "hello@anonymous-75.example",
+  "contactPersonWhatsapp": "6281200000000",
+  "headline": "Terminal Field: Fast workspace",
+  "content": "A tactile command surface for moving through projects without friction.",
+  "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1800&q=85",
+  "owner": {
+    "name": "Terminal Field",
+    "handle": "@collection75"
+  },
+  "showcase": {
+    "title": "Terminal Field",
+    "category": "Fast workspace",
+    "description": "A tactile command surface for moving through projects without friction.",
+    "badge": "COLLECTION 75"
+  },
+  "hero": {
+    "eyebrow": "FAST WORKSPACE / 75",
+    "title": "Terminal Field, made clear.",
+    "description": "A tactile command surface for moving through projects without friction.",
+    "primaryAction": "View the collection",
+    "secondaryAction": "Read the approach"
+  },
+  "ui": {
+    "brandMark": "75",
+    "homeLabel": "Return to showcase index",
+    "navLabel": "Primary navigation",
+    "catalogLabel": "Collection",
+    "contactLabel": "Contact",
+    "catalogAction": "View collection",
+    "secondaryAction": "Read the approach",
+    "footerLabel": "A focused collection for practical work.",
+    "backLabel": "Back to collection",
+    "backAria": "Return to collection",
+    "contactAction": "Open a conversation",
+    "unitPrefix": "Designed for",
+    "heroAlt": "Editorial workspace image for Terminal Field",
+    "copyright": "\u00a9 2026 Anonymous collection",
+    "productCount": "entries"
+  },
+  "products": [
+    {
+      "number": 1,
+      "category": "Field note",
+      "name": "Terminal Field Focus",
+      "variant": "A concise starting point",
+      "description": "A considered entry point for the {category.lower()} collection.",
+      "price": 0,
+      "unit": "individual",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 2,
+      "category": "Working set",
+      "name": "Terminal Field Practice",
+      "variant": "A repeatable working view",
+      "description": "A practical view for shaping the next useful step.",
+      "price": 0,
+      "unit": "small team",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 3,
+      "category": "Reference",
+      "name": "Terminal Field Archive",
+      "variant": "A durable reference",
+      "description": "A clear record for returning to the work with context.",
+      "price": 0,
+      "unit": "working library",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1495020689067-958852a7765c?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    }
+  ],
+  "theme": {
+    "light": {
+      "background": "#101014",
+      "surface": "#202024",
+      "text": "#f5f5f5",
+      "muted": "#a5a5ad",
+      "primary": "#c4b5fd"
+    },
+    "dark": {
+      "background": "#101014",
+      "surface": "#202024",
+      "text": "#f5f5f5",
+      "muted": "#b7b7b7",
+      "primary": "#c4b5fd"
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "slug": "example82",
+  "title": "Build in the open.",
+  "subtitle": "A site canvas with room to move",
+  "companyAddress": "Studio address available by request",
+  "companyEmail": "hello@example82.example",
+  "companyPhone": "+1 555 0100",
+  "contactPersonName": "Studio team",
+  "contactPersonEmail": "team@example82.example",
+  "contactPersonPhone": "+1 555 0100",
+  "contactPersonWhatsapp": "15550100",
+  "headline": "Build in the open.",
+  "content": "A site canvas with room to move",
+  "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1800&q=85",
+  "imageAlt": "Dark space lets the work glow without competing with it.",
+  "owner": {
+    "name": "Studio 82",
+    "handle": "@studio82"
+  },
+  "showcase": {
+    "title": "Build in the open.",
+    "category": "Site building",
+    "description": "A site canvas with room to move",
+    "badge": "studio"
+  },
+  "hero": {
+    "eyebrow": "Site building",
+    "title": "Build in the open.",
+    "description": "A site canvas with room to move",
+    "primaryAction": "View the collection",
+    "secondaryAction": "Share a direction",
+    "caption": "Atmosphere panels separate work modes across the page."
+  },
+  "approach": {
+    "eyebrow": "The point of view",
+    "title": "A working canvas should feel immediate, not instructional.",
+    "description": "Atmosphere panels separate work modes across the page."
+  },
+  "collection": {
+    "eyebrow": "Selected collection",
+    "title": "A small edit with a clear purpose.",
+    "description": "Choose a starting point, then open the detail page for the full view.",
+    "purchaseLabel": "Ask about it",
+    "detailLabel": "View details",
+    "countLabel": "options"
+  },
+  "contact": {
+    "title": "Bring a clear question.",
+    "action": "Start a conversation"
+  },
+  "navigation": {
+    "skip": "Skip to collection",
+    "homeLabel": "Return to showcases",
+    "ariaLabel": "Primary navigation",
+    "items": [
+      {
+        "label": "Approach",
+        "target": "approach"
+      },
+      {
+        "label": "Collection",
+        "target": "collection"
+      },
+      {
+        "label": "Contact",
+        "target": "contact"
+      }
+    ]
+  },
+  "productContact": {
+    "prefix": "Hello, I would like to ask about",
+    "back": "Back to collection",
+    "action": "Ask about this option",
+    "currency": "$",
+    "locale": "en-US"
+  },
+  "products": [
+    {
+      "number": 1,
+      "category": "Canvas",
+      "name": "Canvas study",
+      "variant": "Selected edition",
+      "description": "A considered canvas option shaped around the way people use it.",
+      "price": 120,
+      "unit": "piece",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 2,
+      "category": "Motion",
+      "name": "Motion study",
+      "variant": "Selected edition",
+      "description": "A considered motion option shaped around the way people use it.",
+      "price": 240,
+      "unit": "piece",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    },
+    {
+      "number": 3,
+      "category": "Publishing",
+      "name": "Publishing study",
+      "variant": "Selected edition",
+      "description": "A considered publishing option shaped around the way people use it.",
+      "price": 360,
+      "unit": "piece",
+      "photoUrls": [
+        "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1200&q=85"
+      ],
+      "stockOut": false,
+      "hide": false
+    }
+  ],
+  "theme": {
+    "light": {
+      "background": "#090909",
+      "surface": "#181818",
+      "text": "#ffffff",
+      "muted": "#a6a6a6",
+      "primary": "#0099ff"
+    },
+    "dark": {
+      "background": "#101010",
+      "surface": "#202020",
+      "text": "#f7f7f2",
+      "muted": "#b8b8b0",
+      "primary": "#d44df0"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+.showcase-product .product-gallery-stage{min-height:320px}.showcase-product .product-gallery-stage img{max-height:620px;object-fit:cover}.showcase-product .product-gallery-controls button{min-width:44px;min-height:44px}@media(max-width:720px){.showcase-product{padding-top:18px}.showcase-product header strong{font-size:16px}.showcase-product h1{font-size:clamp(42px,14vw,68px)}}
