@@ -1,0 +1,3 @@
+import { useState } from "react";
+import type { Product } from "../../types/showcase";
+export default function LocalGallery({ product }: { product: Product }) { const [active, setActive] = useState(0); return <div className="e96-gallery"><img className="e96-gallery-stage" src={product.photoUrls[active]} alt={`${product.name}, image ${active + 1}`} />{product.photoUrls.length > 1 && <div className="e96-gallery-thumbs">{product.photoUrls.map((url, index) => <button type="button" key={url} onClick={() => setActive(index)} aria-label={`${product.name} ${index + 1}`} aria-pressed={active === index}><img src={url} alt="" /></button>)}</div>}</div>; }

@@ -1,6 +1,6 @@
 import config from "./config.json";
 import "./example74.css";
-import { ShowcaseCatalog } from "../../components/ShowcaseCatalog";
+import Catalog from "./Catalog";
 import { useTheme } from "../../hooks/useTheme";
 import type { ShowcaseConfig } from "../../types/showcase";
 
@@ -22,7 +22,7 @@ export default function Example74({ navigate }: { navigate: (path: string) => vo
         <div className="hero-copy"><p className="eyebrow">{data.hero.eyebrow}</p><h1 id="hero-title">{data.hero.title}</h1><p>{data.hero.description}</p><div className="actions"><button className="primary-action" onClick={() => scrollTo("collection")}>{data.hero.primaryAction}</button><button className="secondary-action" onClick={() => scrollTo("contact")}>{data.hero.secondaryAction}</button></div></div>
         <figure className="hero-image"><img src={data.image} alt={data.ui.heroAlt} /><figcaption><strong>{data.showcase.category}</strong><span>{data.showcase.description}</span></figcaption></figure>
       </section>
-      <section className="collection" id="collection" aria-labelledby="collection-title"><div className="collection-intro"><p className="eyebrow">{data.showcase.badge}</p><h2 id="collection-title">{data.showcase.title}</h2><p>{data.showcase.description}</p></div><ShowcaseCatalog products={data.products} slug={data.slug} navigate={navigate} whatsapp={data.contactPersonWhatsapp} purchaseLabel={data.ui.contactAction} detailLabel={data.ui.catalogAction} variant="editorial" countLabel={data.ui.productCount} /></section>
+      <section className="collection" id="collection" aria-labelledby="collection-title"><div className="collection-intro"><p className="eyebrow">{data.showcase.badge}</p><h2 id="collection-title">{data.showcase.title}</h2><p>{data.showcase.description}</p></div><Catalog products={data.products} slug={data.slug} navigate={navigate} whatsapp={data.contactPersonWhatsapp} purchaseLabel={data.ui.contactAction} detailLabel={data.ui.catalogAction} /></section>
       <footer id="contact"><div><strong>{data.owner.name}</strong><p>{data.ui.footerLabel}</p></div><a href={`mailto:${data.companyEmail}`}>{data.companyEmail}</a><small>{data.ui.copyright}</small></footer>
     </main>
   );

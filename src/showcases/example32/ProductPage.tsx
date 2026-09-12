@@ -1,7 +1,6 @@
 import type { Product, ShowcaseConfig } from "../../types/showcase";
-import ProductGallery from "../../components/ProductGallery";
+import ProductGallery from "./ProductGallery";
 import { useTheme } from "../../hooks/useTheme";
-import "../../components/product-gallery.css";
 import "./product-page.css";
 export default function ProductPage({ config, product, navigate }: { config: ShowcaseConfig; product: Product; navigate: (path: string) => void }) {
  const { theme } = useTheme(); const t=config.theme[theme]; const contact=`https://wa.me/${config.contactPersonWhatsapp}?text=${encodeURIComponent(product.name)}`;

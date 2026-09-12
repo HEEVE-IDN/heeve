@@ -33,9 +33,13 @@ export default function ProductGallery({
           onClick={() => current && setZoom(true)}
           role={current ? "button" : undefined}
           tabIndex={current ? 0 : undefined}
-          onKeyDown={(event) =>
-            event.key === "Enter" && current && setZoom(true)
-          }
+          aria-label={current ? `Open ${product.name} image` : undefined}
+          onKeyDown={(event) => {
+            if ((event.key === "Enter" || event.key === " ") && current) {
+              event.preventDefault();
+              setZoom(true);
+            }
+          }}
         >
           {current ? (
             <img src={current} alt={`${product.name} ${index + 1}`} />

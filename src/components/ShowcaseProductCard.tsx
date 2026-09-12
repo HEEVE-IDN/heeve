@@ -50,20 +50,7 @@ export function ShowcaseProductCard({
           <img
             src={product.photoUrls[0]}
             alt={product.name}
-            onClick={(event) => {
-              event.stopPropagation();
-              openProduct();
-            }}
-            onKeyDown={(event) => {
-              if (event.key === "Enter" || event.key === " ") {
-                event.preventDefault();
-                event.stopPropagation();
-                openProduct();
-              }
-            }}
-            role="link"
-            tabIndex={0}
-            aria-label={`Open ${product.name}`}
+
           />
         ) : (
           <>
@@ -96,6 +83,7 @@ export function ShowcaseProductCard({
               {purchaseLabel} ↗
             </a>
             <button
+              type="button"
               className="product-detail-link"
               onClick={(event) => {
                 event.stopPropagation();

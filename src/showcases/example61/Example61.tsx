@@ -1,6 +1,7 @@
 import config from "./config.json";
 import "./example61.css";
-import { ShowcaseCatalog } from "../../components/ShowcaseCatalog";
+import "./local-components.css";
+import { LocalCatalog } from "./LocalCatalog";
 import { useTheme } from "../../hooks/useTheme";
 import type { ShowcaseConfig } from "../../types/showcase";
 import type { CSSProperties } from "react";
@@ -41,7 +42,7 @@ export default function Example61({ navigate }: { navigate: (path: string) => vo
       </section>
       <section className="showcase-collection" id="collection" aria-labelledby="collection-title">
         <header><p className="eyebrow">{data.showcase.category}</p><h2 id="collection-title">{data.hero.secondaryAction}</h2></header>
-        <ShowcaseCatalog products={data.products} slug={data.slug} navigate={navigate} whatsapp={data.contactPersonWhatsapp} purchaseLabel={data.hero.primaryAction} detailLabel={data.hero.secondaryAction} variant="editorial" countLabel={data.showcase.category} />
+        <LocalCatalog products={data.products} slug={data.slug} navigate={navigate} whatsapp={data.contactPersonWhatsapp} purchaseLabel={data.hero.primaryAction} detailLabel={data.hero.secondaryAction} variant="editorial" countLabel={data.showcase.category} />
       </section>
       <footer id="contact"><div><strong>{data.title}</strong><p>{data.showcase.description}</p></div><a href={`mailto:${data.companyEmail}`}>{data.companyEmail}</a></footer>
     </main>
